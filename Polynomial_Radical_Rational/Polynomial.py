@@ -1,2 +1,2 @@
-def poly_f(x):
+def poly_f(numFactors, factors):
     pass
