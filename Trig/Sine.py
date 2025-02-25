@@ -10,5 +10,5 @@ def sin(theta, A, B, C, D):
         result += ((((B*theta)-C)**exp)/factorial.factorial(exp))*sign
         sign *= -1
         exp += 2
-    return (A*result) + D
+    return round(((A*result) + D), 4)
 #print(round(sin(pi.get_pi(2)/2, 1, 1, 0, 0), 12))

@@ -16,5 +16,5 @@ def binary_split(a, b):
 def get_pi(n):
     #Chudnovsky algorithm
     Pln, Qln, Rln = binary_split(1, n)
-    return ((426880 * (10005**(1/2))) * Qln) / (13591409*Qln + Rln)
+    return round(((426880 * (10005**(1/2))) * Qln) / (13591409*Qln + Rln), 4)
 #print(get_pi(10))
